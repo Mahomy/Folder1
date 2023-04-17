@@ -1,0 +1,100 @@
+<!DOCTYPE html> 
+<html lang=" en">
+<html>
+<head>
+<meta charset=" UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content=" ie=edge">
+
+<title>     </title>
+</head>
+<body>   
+<div class="preloader"></div>
+<div class="container">
+<div class="item">
+
+</div>
+<div class="item2">
+<br>
+<h2>Power Failure</h2>
+<br>
+<hr>
+<br>
+<br>
+<br>
+<br>
+<br>
+<a href="index.html"><button = class ="back">Back</button></a>
+</div>
+</div>
+
+
+ </body>
+<style>
+*{
+
+margin:0;
+padding:0;
+
+}
+
+
+
+.container{
+width:100%;
+height:100%vh;
+}
+
+.item2{
+
+margin:10px;
+box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+text-align:center;
+padding-bottom:600px;
+padding-top:60px;
+}
+
+h2{
+
+color:grey;
+}
+
+.item{
+
+width:100%;
+height:60px;
+background-color:#22813f;
+}
+
+.back{
+ border: none;
+  color: white;
+  padding: 15px 64px;
+  text-align: center;
+  text-decoration: none;
+ display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+background-color:#22813f;
+
+}
+.preloader{
+background: #ffffff/* url (images/Loader.gif) no-repeat center center ;*/;
+height:100vh;
+width:100%;
+position:fixed;
+z-index:100;
+
+}
+
+
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.preloader').fadeToggle();
+        }, 2000);
+    </script>
+
+</html>

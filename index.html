@@ -1,0 +1,253 @@
+<!DOCTYPE html> 
+<html lang="en">
+<html>
+<head>
+<meta charset="UTF-8">
+ <meta name="viewport"content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible"content="ie=edge">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>     </title>
+</head>
+<body>
+<div class="preloader">
+
+
+</div>
+
+<div class ="container">Container
+
+
+<div class ="header ">
+<img src ="Tshwane.jpg">
+<span>City Tshwane App</span></div>
+
+<div class="button1">
+<center><img src ="Tshwane 1.jpg"></center>
+Municipal Services
+<a href="1.html"><button class ="buttona">Click Here</button></a>
+
+</div>
+
+
+
+<div class="button2">
+<center><img src ="Tshwane2.jpg"></center>
+
+ Service Interuption
+<a href="2.html"><button class ="buttona">Click Here</button></a>
+</div>
+
+
+<div class="button3">
+<a href="3.html"><center><img src ="Tshwane3.jpg"></center></a>
+<br>
+Land Development Application
+<a href="3.html"><button class ="buttona">Click Here</button></a>
+</div>
+
+<div class="button4">
+<center><img src ="Tshwane 4.jpg"></center>
+<br>
+Power Failure
+<a href="4.html"><button class ="buttona">Click Here</button></a>
+</div>
+
+<div class="footer">
+<i class="fa-solid fa-location-dot"></i>
+<i class="fa-brands fa-facebook"></i>
+<i class="fa-brands fa-linkedin"></i>
+
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        setTimeout(function(){
+            $('.preloader').fadeToggle();
+        }, 2000);
+    </script>
+
+
+
+    </body>
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:arial;
+font-size:20px;
+weight:8px;
+}
+
+span{
+color:yellow;
+}
+
+.container{
+width:100%;
+height:100%vh;
+display:grid;
+grid-template-columns:1fr;
+grid-template-rows:70px 360px 360px 360px 360px 70px;
+gap:10px;
+/*background:lightgrey;*/
+text-align:center;
+background:url(' 29.png ');
+}
+
+
+.button1{
+ /*background-image: linear-gradient(to bottom right, green, yellow);*/
+color:grey;
+text-align:center;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+cursor:pointer;
+margin:10px;
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+padding:5px;
+margin-top:40px;
+background:white;
+
+}
+
+.button2{
+ /*background-image: linear-gradient(to bottom right, green, yellow);*/
+color:grey;
+text-align:center;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+cursor:pointer;
+margin:10px;
+display:flex;
+flex-direction: column;
+justify-content:center;
+align-items:center;
+padding:5px;
+background:white;
+
+}
+
+.button3{
+background:white;
+text-align:center;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+margin:10px;
+cursor:pointer;
+color:grey;
+display:flex;
+flex-direction: column;
+padding:5px;
+position:relative;
+}
+
+.button4{
+background:white;
+text-align:center;
+ box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+margin:10px;
+cursor:pointer;
+color:grey;
+display:flex;
+flex-direction: column;
+padding:5px;
+
+}
+
+.icon{
+font-size:100px;
+padding:15px;
+}
+
+
+.icon:hover{
+opacity:0.5;
+}
+
+.header{
+background:#22813f;
+color:white;
+padding:5px;
+margin-top:0px;
+position:fixed;
+width:100%;
+z-index:+10;
+
+}
+
+span{
+padding:20px;
+font-size:25px;
+text-align:center;
+}
+
+.footer{
+background:#22813f;
+color:white;
+padding:20px;
+width:100%;
+z-index:+10
+border:solid 1px;
+
+}
+
+.button1 img{
+width:200px;
+height:200px;
+
+}
+.button2 img{
+width:200px;
+height:200px;
+
+}
+.button3 img{
+width:200px;
+height:200px;
+
+}
+.button4 img{
+width:200px;
+height:200px;
+
+}
+.header img{
+width:80px;
+height:70px;
+border-radius:20px;
+
+}
+
+.buttona{
+ border: none;
+  color: white;
+  padding: 15px 64px;
+  text-align: center;
+  text-decoration: none;
+ display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+background-color:#22813f;
+position:relative;
+
+}
+
+.footer fa i{
+
+}
+
+.preloader{
+background: #ffffff/* url (images/Loader.gif) no-repeat center center ;*/;
+height:100vh;
+width:100%;
+position:fixed;
+z-index:100;
+
+}
+
+
+</style>
+
+</html>
